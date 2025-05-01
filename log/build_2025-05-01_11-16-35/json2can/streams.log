@@ -1,0 +1,40 @@
+[4.383s] Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/json2can': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/json2can build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/install.log --single-version-externally-managed
+[4.793s] running egg_info
+[4.793s] creating ../../build/json2can/json2can.egg-info
+[4.793s] writing ../../build/json2can/json2can.egg-info/PKG-INFO
+[4.793s] writing dependency_links to ../../build/json2can/json2can.egg-info/dependency_links.txt
+[4.794s] writing entry points to ../../build/json2can/json2can.egg-info/entry_points.txt
+[4.794s] writing requirements to ../../build/json2can/json2can.egg-info/requires.txt
+[4.794s] writing top-level names to ../../build/json2can/json2can.egg-info/top_level.txt
+[4.850s] writing manifest file '../../build/json2can/json2can.egg-info/SOURCES.txt'
+[4.908s] reading manifest file '../../build/json2can/json2can.egg-info/SOURCES.txt'
+[4.909s] writing manifest file '../../build/json2can/json2can.egg-info/SOURCES.txt'
+[4.910s] running build
+[4.911s] running build_py
+[4.911s] creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build
+[4.911s] creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib
+[4.911s] creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib/json2can
+[4.915s] copying json2can/__init__.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib/json2can
+[4.915s] copying json2can/json2can.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib/json2can
+[4.915s] copying json2can/can_send_main.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib/json2can
+[4.915s] running install
+[4.915s] running install_lib
+[4.917s] creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can
+[4.917s] copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib/json2can/__init__.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can
+[4.917s] copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib/json2can/json2can.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can
+[4.917s] copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build/lib/json2can/can_send_main.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can
+[4.918s] byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can/__init__.py to __init__.cpython-38.pyc
+[4.921s] byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can/json2can.py to json2can.cpython-38.pyc
+[4.923s] byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can/can_send_main.py to can_send_main.cpython-38.pyc
+[4.926s] running install_data
+[4.927s] creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/ament_index
+[4.928s] creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/ament_index/resource_index
+[4.928s] creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/ament_index/resource_index/packages
+[4.928s] copying resource/json2can -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/ament_index/resource_index/packages
+[4.929s] copying package.xml -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can
+[4.929s] running install_egg_info
+[4.931s] Copying ../../build/json2can/json2can.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can-0.0.0-py3.8.egg-info
+[4.932s] running install_scripts
+[4.957s] Installing json2can script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/bin
+[4.957s] writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/install.log'
+[5.004s] Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/json2can' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/json2can build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/install.log --single-version-externally-managed

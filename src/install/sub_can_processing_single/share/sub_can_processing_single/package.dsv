@@ -1,0 +1,4 @@
+source;share/sub_can_processing_single/hook/pythonpath.dsv
+source;share/sub_can_processing_single/hook/pythonpath.sh
+source;share/sub_can_processing_single/hook/ament_prefix_path.dsv
+source;share/sub_can_processing_single/hook/ament_prefix_path.sh

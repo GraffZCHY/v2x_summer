@@ -1,0 +1,22 @@
+std_msgs/Header header
+
+float32[] v2_x_intersection_s_p_a_t
+float32[] v2_x_intersection_m_a_p
+float32[] a_v_state
+float32[] road_state
+float32[] vehicle_orientation
+float32[] vehicle_location
+float32[] objects
+float32[] object_track_a
+float32[] object_track_b
+float32[] object_track_c
+float32[] object_track_d
+float32[] traffic_signal_heads
+float32[] traffic_signal_head_track_a
+float32[] traffic_signs
+float32[] traffic_sign_track_a
+float32[] lane_markings
+float32[] lane_marking_track_a
+float32[] limit_lines
+float32[] limit_line_track_a
+float32[] misc

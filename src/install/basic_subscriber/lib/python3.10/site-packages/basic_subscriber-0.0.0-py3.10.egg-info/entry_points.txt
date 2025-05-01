@@ -1,0 +1,3 @@
+[console_scripts]
+basic_subscriber = basic_subscriber.basic_subscriber:main
+

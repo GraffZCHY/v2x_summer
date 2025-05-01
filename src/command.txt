@@ -1,0 +1,8 @@
+source /opt/ros/foxy/setup.bash
+colcon build
+. install/local_setup.bash
+sudo ip link set up can0 type can bitrate 500000
+clear
+
+ros2 run sub_can_processing_single sub_can_processing_single
+ros2 run v2x_send_spat v2x_send_spat

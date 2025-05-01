@@ -1,0 +1,6 @@
+setup.py
+perception_comm/__init__.py
+perception_comm.egg-info/PKG-INFO
+perception_comm.egg-info/SOURCES.txt
+perception_comm.egg-info/dependency_links.txt
+perception_comm.egg-info/top_level.txt

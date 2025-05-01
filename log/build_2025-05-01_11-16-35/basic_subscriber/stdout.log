@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/basic_subscriber/basic_subscriber.egg-info
+writing ../../build/basic_subscriber/basic_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/basic_subscriber/basic_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/basic_subscriber/basic_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/basic_subscriber/basic_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/basic_subscriber/basic_subscriber.egg-info/top_level.txt
+writing manifest file '../../build/basic_subscriber/basic_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../../build/basic_subscriber/basic_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/basic_subscriber/basic_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build
+creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib
+creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber
+copying basic_subscriber/basic_subscriber.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber
+copying basic_subscriber/message.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber
+copying basic_subscriber/__init__.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber
+copying basic_subscriber/message_base.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber
+copying basic_subscriber/can_send_main.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber
+running install
+running install_lib
+creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber
+copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber/basic_subscriber.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber
+copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber/message.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber
+copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber/__init__.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber
+copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber/message_base.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber
+copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build/lib/basic_subscriber/can_send_main.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber
+byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber/basic_subscriber.py to basic_subscriber.cpython-38.pyc
+byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber/message.py to message.cpython-38.pyc
+byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber/message_base.py to message_base.cpython-38.pyc
+byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber/can_send_main.py to can_send_main.cpython-38.pyc
+running install_data
+creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/ament_index
+creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/ament_index/resource_index
+creating /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/ament_index/resource_index/packages
+copying resource/basic_subscriber -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber
+running install_egg_info
+Copying ../../build/basic_subscriber/basic_subscriber.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber-0.0.0-py3.8.egg-info
+running install_scripts
+Installing basic_subscriber script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/basic_subscriber
+writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/install.log'

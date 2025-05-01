@@ -1,0 +1,21 @@
+[4.447s] Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_can_processing build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/install.log --install-scripts $base/lib/sub_can_processing --single-version-externally-managed
+[4.927s] running egg_info
+[4.948s] writing ../../build/sub_can_processing/sub_can_processing.egg-info/PKG-INFO
+[4.949s] writing dependency_links to ../../build/sub_can_processing/sub_can_processing.egg-info/dependency_links.txt
+[4.949s] writing entry points to ../../build/sub_can_processing/sub_can_processing.egg-info/entry_points.txt
+[4.949s] writing requirements to ../../build/sub_can_processing/sub_can_processing.egg-info/requires.txt
+[4.949s] writing top-level names to ../../build/sub_can_processing/sub_can_processing.egg-info/top_level.txt
+[4.998s] reading manifest file '../../build/sub_can_processing/sub_can_processing.egg-info/SOURCES.txt'
+[5.005s] writing manifest file '../../build/sub_can_processing/sub_can_processing.egg-info/SOURCES.txt'
+[5.008s] running build
+[5.009s] running build_py
+[5.009s] running install
+[5.010s] running install_lib
+[5.011s] running install_data
+[5.016s] running install_egg_info
+[5.018s] removing '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/python3.8/site-packages/sub_can_processing-0.0.0-py3.8.egg-info' (and everything under it)
+[5.037s] Copying ../../build/sub_can_processing/sub_can_processing.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/python3.8/site-packages/sub_can_processing-0.0.0-py3.8.egg-info
+[5.037s] running install_scripts
+[5.056s] Installing sub_can_processing script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/sub_can_processing
+[5.059s] writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/install.log'
+[6.115s] Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_can_processing build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/install.log --install-scripts $base/lib/sub_can_processing --single-version-externally-managed

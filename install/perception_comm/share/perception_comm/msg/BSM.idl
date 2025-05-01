@@ -1,0 +1,64 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from perception_comm/msg/BSM.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module perception_comm {
+  module msg {
+    @verbatim (language="comment", text=
+      " BSM.msg" "\n"
+      " 假设我们只选取了常用字段，全部是示例，自己按需求增删")
+    struct BSM {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " 对应 JSON 里的 \"id\"")
+      string vehicle_id;
+
+      @verbatim (language="comment", text=
+        " 对应 coreData 里的 \"msgCnt\"")
+      int32 msg_cnt;
+
+      @verbatim (language="comment", text=
+        " coreData.lat  (1e-7)")
+      double lat;
+
+      @verbatim (language="comment", text=
+        " coreData.long (1e-7)")
+      double lon;
+
+      @verbatim (language="comment", text=
+        " coreData.elev")
+      double elev;
+
+      @verbatim (language="comment", text=
+        " coreData.heading")
+      int32 heading;
+
+      @verbatim (language="comment", text=
+        " coreData.speed (0.02 m/s)")
+      double speed;
+
+      @verbatim (language="comment", text=
+        " coreData.accelSet.lat")
+      double accel_lat;
+
+      @verbatim (language="comment", text=
+        " coreData.accelSet.long")
+      double accel_long;
+
+      @verbatim (language="comment", text=
+        " coreData.accelSet.vert")
+      double accel_vert;
+
+      @verbatim (language="comment", text=
+        " coreData.accelSet.yaw")
+      double accel_yaw;
+
+      @verbatim (language="comment", text=
+        " 用于存储整个原始解码后的JSON（如果需要）")
+      string full_json;
+    };
+  };
+};

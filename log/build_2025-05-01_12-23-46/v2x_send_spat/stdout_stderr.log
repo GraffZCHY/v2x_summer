@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/v2x_send_spat/v2x_send_spat.egg-info/PKG-INFO
+writing dependency_links to ../../build/v2x_send_spat/v2x_send_spat.egg-info/dependency_links.txt
+writing entry points to ../../build/v2x_send_spat/v2x_send_spat.egg-info/entry_points.txt
+writing requirements to ../../build/v2x_send_spat/v2x_send_spat.egg-info/requires.txt
+writing top-level names to ../../build/v2x_send_spat/v2x_send_spat.egg-info/top_level.txt
+reading manifest file '../../build/v2x_send_spat/v2x_send_spat.egg-info/SOURCES.txt'
+writing manifest file '../../build/v2x_send_spat/v2x_send_spat.egg-info/SOURCES.txt'
+running build
+running build_py
+copying v2x_send_spat/v2x_send_spat.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build/lib/v2x_send_spat
+running install
+running install_lib
+copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build/lib/v2x_send_spat/v2x_send_spat.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat
+byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat/v2x_send_spat.py to v2x_send_spat.cpython-38.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (v2x_send_spat.py, line 62)
+running install_data
+running install_egg_info
+removing '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/v2x_send_spat/v2x_send_spat.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat-0.0.0-py3.8.egg-info
+running install_scripts
+Installing v2x_send_spat script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/v2x_send_spat
+writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/install.log'

@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/juchen/V2X_ws/install/v2x_send_spat/lib/python3.10/site-packages",
+        "/home/juchen/dev_ws/install/learning_topic/lib/python3.8/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/juchen/V2X_ws/install/v2x_send_spat/lib/python3.10/site-packages",
+        "/home/juchen/dev_ws/install/learning_topic/lib/python3.8/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

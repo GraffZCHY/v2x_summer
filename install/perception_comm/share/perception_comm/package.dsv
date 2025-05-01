@@ -1,0 +1,14 @@
+source;share/perception_comm/hook/cmake_prefix_path.ps1
+source;share/perception_comm/hook/cmake_prefix_path.dsv
+source;share/perception_comm/hook/cmake_prefix_path.sh
+source;share/perception_comm/hook/ld_library_path_lib.ps1
+source;share/perception_comm/hook/ld_library_path_lib.dsv
+source;share/perception_comm/hook/ld_library_path_lib.sh
+source;share/perception_comm/hook/pythonpath.ps1
+source;share/perception_comm/hook/pythonpath.dsv
+source;share/perception_comm/hook/pythonpath.sh
+source;share/perception_comm/local_setup.bash
+source;share/perception_comm/local_setup.dsv
+source;share/perception_comm/local_setup.ps1
+source;share/perception_comm/local_setup.sh
+source;share/perception_comm/local_setup.zsh

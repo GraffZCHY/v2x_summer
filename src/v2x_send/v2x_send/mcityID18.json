@@ -1,0 +1,879 @@
+{
+ "messageId": 18,
+ "value": {
+  "intersections": [
+   {
+    "id": {
+     "id": 2573
+    },
+    "laneSet": [
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 11,
+         "maneuver": "8000"
+        },
+        "signalGroup": 6
+       },
+       {
+        "connectingLane": {
+         "lane": 12,
+         "maneuver": "2000"
+        },
+        "signalGroup": 6
+       }
+      ],
+      "ingressApproach": 3,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 6,
+      "maneuvers": "8000",
+      "name": "State Street Northbound ingress",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423007851,
+           "lon": -836986048
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423006329,
+           "lon": -836986083
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423004825,
+           "lon": -836986109
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "ingressApproach": 3,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "bikeLane": "8000"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 5,
+      "name": "State St. Northbound Bike Lane ingr",
+      "nodeList": {
+       "nodes": [
+        {
+         "attributes": {
+          "dWidth": -200
+         },
+         "delta": {
+          "node-LatLon": {
+           "lat": 423007859,
+           "lon": -836985783
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423006416,
+           "lon": -836985822
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423004815,
+           "lon": -836985848
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 15,
+         "maneuver": "4000"
+        },
+        "signalGroup": 1
+       },
+       {
+        "connectingLane": {
+         "lane": 16,
+         "maneuver": "4000"
+        },
+        "signalGroup": 1
+       }
+      ],
+      "ingressApproach": 3,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 7,
+      "maneuvers": "4000",
+      "name": "State St. Northbound ingress left t",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423007863,
+           "lon": -836986521
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423006499,
+           "lon": -836986551
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423004897,
+           "lon": -836986573
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 11,
+         "maneuver": "4000"
+        },
+        "signalGroup": 3
+       }
+      ],
+      "ingressApproach": 4,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 10,
+      "maneuvers": "4000",
+      "name": "State St. Eastbound ingress Left Tu",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009307,
+           "lon": -836988141
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009301,
+           "lon": -836988618
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009299,
+           "lon": -836989038
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009311,
+           "lon": -836989445
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 12,
+         "maneuver": "8000"
+        },
+        "signalGroup": 8
+       }
+      ],
+      "ingressApproach": 4,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 9,
+      "maneuvers": "8000",
+      "name": "Main St. Eastbound ingress",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008958,
+           "lon": -836988144
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008994,
+           "lon": -836990480
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 13,
+         "maneuver": "2000"
+        },
+        "signalGroup": 8
+       }
+      ],
+      "ingressApproach": 4,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 8,
+      "maneuvers": "2000",
+      "name": "Main St. Eastbound ingress Left Tur",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008626,
+           "lon": -836988148
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008615,
+           "lon": -836990490
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 11,
+         "maneuver": "2000"
+        },
+        "signalGroup": 4
+       },
+       {
+        "connectingLane": {
+         "lane": 15,
+         "maneuver": "8000"
+        },
+        "signalGroup": 4
+       },
+       {
+        "connectingLane": {
+         "lane": 16,
+         "maneuver": "8000"
+        },
+        "signalGroup": 4
+       }
+      ],
+      "ingressApproach": 2,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 3,
+      "maneuvers": "a000",
+      "name": "Main St. Westbound Ingress",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009812,
+           "lon": -836984843
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009817,
+           "lon": -836983503
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009832,
+           "lon": -836980789
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 13,
+         "maneuver": "4000"
+        },
+        "signalGroup": 7
+       }
+      ],
+      "ingressApproach": 2,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 4,
+      "maneuvers": "4000",
+      "name": "Main St. Westbound ingress left tur",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009433,
+           "lon": -836984842
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009415,
+           "lon": -836984079
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009421,
+           "lon": -836983706
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009410,
+           "lon": -836983275
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009412,
+           "lon": -836982820
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009401,
+           "lon": -836982465
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "egressApproach": 7,
+      "laneAttributes": {
+       "directionalUse": "40",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 13,
+      "name": "State Southbound egress",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423007893,
+           "lon": -836986941
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423006596,
+           "lon": -836986951
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423004896,
+           "lon": -836986978
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "egressApproach": 7,
+      "laneAttributes": {
+       "directionalUse": "40",
+       "laneType": {
+        "bikeLane": "8000"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 14,
+      "name": "State southbound egress bike",
+      "nodeList": {
+       "nodes": [
+        {
+         "attributes": {
+          "dWidth": -200
+         },
+         "delta": {
+          "node-LatLon": {
+           "lat": 423007906,
+           "lon": -836987257
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423006369,
+           "lon": -836987287
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423004903,
+           "lon": -836987304
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "egressApproach": 6,
+      "laneAttributes": {
+       "directionalUse": "40",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 12,
+      "name": "Main Eastbound egress",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008956,
+           "lon": -836985103
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008905,
+           "lon": -836981078
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "egressApproach": 5,
+      "laneAttributes": {
+       "directionalUse": "40",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 11,
+      "name": "Main x Liberty northbound egress",
+      "nodeList": {
+       "nodes": [
+        {
+         "attributes": {
+          "dWidth": 330
+         },
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010751,
+           "lon": -836986107
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423014275,
+           "lon": -836986013
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "egressApproach": 8,
+      "laneAttributes": {
+       "directionalUse": "40",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 15,
+      "name": "Main westbound egress left-forward",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009731,
+           "lon": -836987804
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423009745,
+           "lon": -836990087
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "egressApproach": 8,
+      "laneAttributes": {
+       "directionalUse": "40",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 16,
+      "name": "Main Westbound egress right-turn",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010076,
+           "lon": -836987794
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010112,
+           "lon": -836990077
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "connectsTo": [
+       {
+        "connectingLane": {
+         "lane": 12,
+         "maneuver": "4000"
+        },
+        "signalGroup": 2
+       },
+       {
+        "connectingLane": {
+         "lane": 13,
+         "maneuver": "8000"
+        },
+        "signalGroup": 2
+       },
+       {
+        "connectingLane": {
+         "lane": 15,
+         "maneuver": "2000"
+        },
+        "signalGroup": 2
+       },
+       {
+        "connectingLane": {
+         "lane": 16,
+         "maneuver": "2000"
+        },
+        "signalGroup": 2
+       }
+      ],
+      "ingressApproach": 1,
+      "laneAttributes": {
+       "directionalUse": "80",
+       "laneType": {
+        "vehicle": "80"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 2,
+      "maneuvers": "e000",
+      "name": "State St. Southbound Ingress",
+      "nodeList": {
+       "nodes": [
+        {
+         "attributes": {
+          "dWidth": 330
+         },
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010772,
+           "lon": -836986903
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423013295,
+           "lon": -836986869
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423014269,
+           "lon": -836986868
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "laneAttributes": {
+       "directionalUse": "00",
+       "laneType": {
+        "crosswalk": "8000"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 19,
+      "name": "State St. south crosswalk",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008176,
+           "lon": -836987446
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008170,
+           "lon": -836985590
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "laneAttributes": {
+       "directionalUse": "00",
+       "laneType": {
+        "crosswalk": "8000"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 18,
+      "name": "Main St. east crosswalk",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008363,
+           "lon": -836985199
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010466,
+           "lon": -836985191
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "laneAttributes": {
+       "directionalUse": "00",
+       "laneType": {
+        "crosswalk": "8000"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 17,
+      "name": "State st. crosswalk north",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010495,
+           "lon": -836985252
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010481,
+           "lon": -836987560
+          }
+         }
+        }
+       ]
+      }
+     },
+     {
+      "laneAttributes": {
+       "directionalUse": "00",
+       "laneType": {
+        "crosswalk": "8000"
+       },
+       "sharedWith": "0000"
+      },
+      "laneID": 20,
+      "name": "Main St. crosswalk west",
+      "nodeList": {
+       "nodes": [
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423010412,
+           "lon": -836987662
+          }
+         }
+        },
+        {
+         "delta": {
+          "node-LatLon": {
+           "lat": 423008373,
+           "lon": -836987778
+          }
+         }
+        }
+       ]
+      }
+     }
+    ],
+    "laneWidth": 330,
+    "refPoint": {
+     "elevation": 2740,
+     "lat": 423008849,
+     "long": -836985992
+    },
+    "revision": 8,
+    "speedLimits": [
+     {
+      "speed": 559,
+      "type": "vehicleMaxSpeed"
+     }
+    ]
+   }
+  ],
+  "layerID": 1,
+  "layerType": "intersectionData",
+  "msgIssueRevision": 7
+ }
+}

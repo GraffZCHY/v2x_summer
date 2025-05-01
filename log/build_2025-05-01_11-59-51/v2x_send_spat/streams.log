@@ -1,0 +1,24 @@
+[3.689s] Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send_spat': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v2x_send_spat build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/install.log --single-version-externally-managed
+[4.139s] running egg_info
+[4.141s] writing ../../build/v2x_send_spat/v2x_send_spat.egg-info/PKG-INFO
+[4.143s] writing dependency_links to ../../build/v2x_send_spat/v2x_send_spat.egg-info/dependency_links.txt
+[4.145s] writing entry points to ../../build/v2x_send_spat/v2x_send_spat.egg-info/entry_points.txt
+[4.145s] writing requirements to ../../build/v2x_send_spat/v2x_send_spat.egg-info/requires.txt
+[4.146s] writing top-level names to ../../build/v2x_send_spat/v2x_send_spat.egg-info/top_level.txt
+[4.216s] reading manifest file '../../build/v2x_send_spat/v2x_send_spat.egg-info/SOURCES.txt'
+[4.216s] writing manifest file '../../build/v2x_send_spat/v2x_send_spat.egg-info/SOURCES.txt'
+[4.216s] running build
+[4.216s] running build_py
+[4.216s] copying v2x_send_spat/v2x_send_spat.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build/lib/v2x_send_spat
+[4.216s] running install
+[4.216s] running install_lib
+[4.217s] copying /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build/lib/v2x_send_spat/v2x_send_spat.py -> /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat
+[4.217s] byte-compiling /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat/v2x_send_spat.py to v2x_send_spat.cpython-38.pyc
+[4.218s] running install_data
+[4.219s] running install_egg_info
+[4.223s] removing '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat-0.0.0-py3.8.egg-info' (and everything under it)
+[4.223s] Copying ../../build/v2x_send_spat/v2x_send_spat.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages/v2x_send_spat-0.0.0-py3.8.egg-info
+[4.226s] running install_scripts
+[4.255s] Installing v2x_send_spat script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/v2x_send_spat
+[4.255s] writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/install.log'
+[5.112s] Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send_spat' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v2x_send_spat build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/install.log --single-version-externally-managed

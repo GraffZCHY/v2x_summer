@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/json2can/json2can.egg-info/PKG-INFO
+writing dependency_links to ../../build/json2can/json2can.egg-info/dependency_links.txt
+writing entry points to ../../build/json2can/json2can.egg-info/entry_points.txt
+writing requirements to ../../build/json2can/json2can.egg-info/requires.txt
+writing top-level names to ../../build/json2can/json2can.egg-info/top_level.txt
+reading manifest file '../../build/json2can/json2can.egg-info/SOURCES.txt'
+writing manifest file '../../build/json2can/json2can.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/json2can/json2can.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages/json2can-0.0.0-py3.8.egg-info
+running install_scripts
+Installing json2can script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/bin
+writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/install.log'

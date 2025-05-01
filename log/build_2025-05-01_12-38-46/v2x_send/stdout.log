@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/v2x_send/v2x_send.egg-info/PKG-INFO
+writing dependency_links to ../../build/v2x_send/v2x_send.egg-info/dependency_links.txt
+writing entry points to ../../build/v2x_send/v2x_send.egg-info/entry_points.txt
+writing requirements to ../../build/v2x_send/v2x_send.egg-info/requires.txt
+writing top-level names to ../../build/v2x_send/v2x_send.egg-info/top_level.txt
+reading manifest file '../../build/v2x_send/v2x_send.egg-info/SOURCES.txt'
+writing manifest file '../../build/v2x_send/v2x_send.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib/python3.8/site-packages/v2x_send-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/v2x_send/v2x_send.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib/python3.8/site-packages/v2x_send-0.0.0-py3.8.egg-info
+running install_scripts
+Installing v2x_send script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib/v2x_send
+writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send/install.log'

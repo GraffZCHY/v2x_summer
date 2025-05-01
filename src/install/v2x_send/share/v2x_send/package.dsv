@@ -1,0 +1,4 @@
+source;share/v2x_send/hook/pythonpath.dsv
+source;share/v2x_send/hook/pythonpath.sh
+source;share/v2x_send/hook/ament_prefix_path.dsv
+source;share/v2x_send/hook/ament_prefix_path.sh

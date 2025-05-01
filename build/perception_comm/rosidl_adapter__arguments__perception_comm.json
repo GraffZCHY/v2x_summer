@@ -1,0 +1,7 @@
+{
+  "package_name": "perception_comm",
+  "non_idl_tuples": [
+    "/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/perception_comm:msg/CAN.msg",
+    "/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/perception_comm:msg/BSM.msg"
+  ]
+}

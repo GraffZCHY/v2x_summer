@@ -1,0 +1,516 @@
+[2.592s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.592s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f55c370e340>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f55c370e340>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f55c328e880>)
+[2.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.708s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extension 'ignore'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extension 'ignore_ament_install'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extensions ['colcon_pkg']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extension 'colcon_pkg'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extensions ['colcon_meta']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extension 'colcon_meta'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extensions ['ros']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_subscriber) by extension 'ros'
+[2.721s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basic_subscriber' with type 'ros.ament_python' and name 'basic_subscriber'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['ignore', 'ignore_ament_install']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ignore'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ignore_ament_install'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['colcon_pkg']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'colcon_pkg'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['colcon_meta']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'colcon_meta'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['ros']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'ros'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['cmake', 'python']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'cmake'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'python'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extensions ['python_setup_py']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common) by extension 'python_setup_py'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'ignore'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'ignore_ament_install'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extensions ['colcon_pkg']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'colcon_pkg'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extensions ['colcon_meta']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'colcon_meta'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extensions ['ros']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'ros'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extensions ['cmake', 'python']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'cmake'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'python'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extensions ['python_setup_py']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/common/__pycache__) by extension 'python_setup_py'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extensions ['ignore', 'ignore_ament_install']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extension 'ignore'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extension 'ignore_ament_install'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extensions ['colcon_pkg']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extension 'colcon_pkg'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extensions ['colcon_meta']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extension 'colcon_meta'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extensions ['ros']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/json2can) by extension 'ros'
+[2.724s] DEBUG:colcon.colcon_core.package_identification:Package 'src/json2can' with type 'ros.ament_python' and name 'json2can'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extensions ['ignore', 'ignore_ament_install']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extension 'ignore'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extension 'ignore_ament_install'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extensions ['colcon_pkg']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extension 'colcon_pkg'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extensions ['colcon_meta']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extension 'colcon_meta'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extensions ['ros']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_comm) by extension 'ros'
+[2.725s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_comm' with type 'ros.ament_cmake' and name 'perception_comm'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extensions ['ignore', 'ignore_ament_install']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extension 'ignore'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extension 'ignore_ament_install'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extensions ['colcon_pkg']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extension 'colcon_pkg'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extensions ['colcon_meta']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extension 'colcon_meta'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extensions ['ros']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing) by extension 'ros'
+[2.726s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_can_processing' with type 'ros.ament_python' and name 'sub_can_processing'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extensions ['ignore', 'ignore_ament_install']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extension 'ignore'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extension 'ignore_ament_install'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extensions ['colcon_pkg']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extension 'colcon_pkg'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extensions ['colcon_meta']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extension 'colcon_meta'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extensions ['ros']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_can_processing_single) by extension 'ros'
+[2.727s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_can_processing_single' with type 'ros.ament_python' and name 'sub_can_processing_single'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ignore', 'ignore_ament_install']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore_ament_install'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_pkg']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_pkg'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_meta']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_meta'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ros']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ros'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['cmake', 'python']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'cmake'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['python_setup_py']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python_setup_py'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extensions ['ignore', 'ignore_ament_install']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extension 'ignore'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extension 'ignore_ament_install'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extensions ['colcon_pkg']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extension 'colcon_pkg'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extensions ['colcon_meta']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extension 'colcon_meta'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extensions ['ros']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send) by extension 'ros'
+[2.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v2x_send' with type 'ros.ament_python' and name 'v2x_send'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extensions ['ignore', 'ignore_ament_install']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extension 'ignore'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extension 'ignore_ament_install'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extensions ['colcon_pkg']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extension 'colcon_pkg'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extensions ['colcon_meta']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extension 'colcon_meta'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extensions ['ros']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2x_send_spat) by extension 'ros'
+[2.729s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v2x_send_spat' with type 'ros.ament_python' and name 'v2x_send_spat'
+[2.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.063s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install
+[3.108s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 264 installed packages in /opt/ros/foxy
+[3.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'cmake_args' from command line to 'None'
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'cmake_target' from command line to 'None'
+[3.340s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'basic_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.341s] DEBUG:colcon.colcon_core.verb:Building package 'basic_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber', 'merge_install': False, 'path': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/basic_subscriber', 'symlink_install': False, 'test_result_base': None}
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'cmake_args' from command line to 'None'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'cmake_target' from command line to 'None'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'cmake_clean_cache' from command line to 'False'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'cmake_clean_first' from command line to 'False'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'cmake_force_configure' from command line to 'False'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'ament_cmake_args' from command line to 'None'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'catkin_cmake_args' from command line to 'None'
+[3.386s] Level 5:colcon.colcon_core.verb:set package 'json2can' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.386s] DEBUG:colcon.colcon_core.verb:Building package 'json2can' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can', 'merge_install': False, 'path': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/json2can', 'symlink_install': False, 'test_result_base': None}
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'cmake_args' from command line to 'None'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'cmake_target' from command line to 'None'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'cmake_clean_first' from command line to 'False'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'cmake_force_configure' from command line to 'False'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'ament_cmake_args' from command line to 'None'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[3.431s] Level 5:colcon.colcon_core.verb:set package 'perception_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.431s] DEBUG:colcon.colcon_core.verb:Building package 'perception_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm', 'merge_install': False, 'path': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/perception_comm', 'symlink_install': False, 'test_result_base': None}
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'cmake_args' from command line to 'None'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'cmake_target' from command line to 'None'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'cmake_clean_first' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'cmake_force_configure' from command line to 'False'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'ament_cmake_args' from command line to 'None'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.476s] DEBUG:colcon.colcon_core.verb:Building package 'sub_can_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing', 'merge_install': False, 'path': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing', 'symlink_install': False, 'test_result_base': None}
+[3.520s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'cmake_args' from command line to 'None'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'cmake_target' from command line to 'None'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'cmake_clean_cache' from command line to 'False'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'cmake_clean_first' from command line to 'False'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'cmake_force_configure' from command line to 'False'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'ament_cmake_args' from command line to 'None'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'catkin_cmake_args' from command line to 'None'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'sub_can_processing_single' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.521s] DEBUG:colcon.colcon_core.verb:Building package 'sub_can_processing_single' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing_single', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single', 'merge_install': False, 'path': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing_single', 'symlink_install': False, 'test_result_base': None}
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'cmake_args' from command line to 'None'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'cmake_target' from command line to 'None'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'cmake_clean_cache' from command line to 'False'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'cmake_clean_first' from command line to 'False'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'cmake_force_configure' from command line to 'False'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'ament_cmake_args' from command line to 'None'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'catkin_cmake_args' from command line to 'None'
+[3.566s] Level 5:colcon.colcon_core.verb:set package 'v2x_send' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.566s] DEBUG:colcon.colcon_core.verb:Building package 'v2x_send' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send', 'merge_install': False, 'path': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send', 'symlink_install': False, 'test_result_base': None}
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'cmake_args' from command line to 'None'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'cmake_target' from command line to 'None'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'cmake_clean_cache' from command line to 'False'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'cmake_clean_first' from command line to 'False'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'cmake_force_configure' from command line to 'False'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'ament_cmake_args' from command line to 'None'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'catkin_cmake_args' from command line to 'None'
+[3.611s] Level 5:colcon.colcon_core.verb:set package 'v2x_send_spat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.611s] DEBUG:colcon.colcon_core.verb:Building package 'v2x_send_spat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat', 'merge_install': False, 'path': '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send_spat', 'symlink_install': False, 'test_result_base': None}
+[3.656s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.701s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/basic_subscriber' with build type 'ament_python'
+[3.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_subscriber', 'ament_prefix_path')
+[3.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/hook/ament_prefix_path.ps1'
+[3.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/hook/ament_prefix_path.dsv'
+[3.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/hook/ament_prefix_path.sh'
+[3.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.940s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/json2can' with build type 'ament_python'
+[3.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('json2can', 'ament_prefix_path')
+[3.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/ament_prefix_path.ps1'
+[3.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/ament_prefix_path.dsv'
+[3.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/ament_prefix_path.sh'
+[4.043s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/perception_comm' with build type 'ament_cmake'
+[4.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/perception_comm'
+[4.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.375s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing' with build type 'ament_python'
+[4.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_can_processing', 'ament_prefix_path')
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/hook/ament_prefix_path.ps1'
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/hook/ament_prefix_path.dsv'
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/hook/ament_prefix_path.sh'
+[4.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.629s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing_single' with build type 'ament_python'
+[4.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_can_processing_single', 'ament_prefix_path')
+[4.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/hook/ament_prefix_path.ps1'
+[4.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/hook/ament_prefix_path.dsv'
+[4.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/hook/ament_prefix_path.sh'
+[4.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.870s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send' with build type 'ament_python'
+[4.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2x_send', 'ament_prefix_path')
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/hook/ament_prefix_path.ps1'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/hook/ament_prefix_path.dsv'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/hook/ament_prefix_path.sh'
+[4.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.115s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send_spat' with build type 'ament_python'
+[5.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2x_send_spat', 'ament_prefix_path')
+[5.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/hook/ament_prefix_path.ps1'
+[5.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/hook/ament_prefix_path.dsv'
+[5.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/hook/ament_prefix_path.sh'
+[5.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.556s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/basic_subscriber'
+[5.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.971s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/json2can'
+[6.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm -- -j8 -l8
+[6.495s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing'
+[6.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.938s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing_single'
+[7.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.412s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send'
+[7.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.978s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send_spat'
+[8.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.065s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/basic_subscriber': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_subscriber build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/install.log --install-scripts $base/lib/basic_subscriber --single-version-externally-managed
+[9.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/json2can': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/json2can build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/install.log --single-version-externally-managed
+[9.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_can_processing build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/install.log --install-scripts $base/lib/sub_can_processing --single-version-externally-managed
+[9.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing_single': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing_single/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_can_processing_single build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing_single/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing_single/install.log --install-scripts $base/lib/sub_can_processing_single --single-version-externally-managed
+[9.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send_spat': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v2x_send_spat build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/install.log --single-version-externally-managed
+[9.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v2x_send build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send/install.log --install-scripts $base/lib/v2x_send --single-version-externally-managed
+[10.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/basic_subscriber' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_subscriber build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/install.log --install-scripts $base/lib/basic_subscriber --single-version-externally-managed
+[10.520s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber' for CMake module files
+[10.521s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber' for CMake config files
+[10.523s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib'
+[10.523s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/bin'
+[10.524s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/pkgconfig/basic_subscriber.pc'
+[10.524s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages'
+[10.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_subscriber', 'pythonpath')
+[10.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/hook/pythonpath.ps1'
+[10.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/hook/pythonpath.dsv'
+[10.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/hook/pythonpath.sh'
+[10.654s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/bin'
+[10.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_subscriber)
+[10.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/package.ps1'
+[10.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/package.dsv'
+[10.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/package.sh'
+[10.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/package.bash'
+[10.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/basic_subscriber/package.zsh'
+[10.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/share/colcon-core/packages/basic_subscriber)
+[10.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send_spat' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v2x_send_spat build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send_spat/install.log --single-version-externally-managed
+[10.804s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat' for CMake module files
+[10.804s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat' for CMake config files
+[10.805s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib'
+[10.805s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/bin'
+[10.805s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/pkgconfig/v2x_send_spat.pc'
+[10.805s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/lib/python3.8/site-packages'
+[10.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2x_send_spat', 'pythonpath')
+[10.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/hook/pythonpath.ps1'
+[10.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/hook/pythonpath.dsv'
+[10.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/hook/pythonpath.sh'
+[10.868s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/bin'
+[10.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v2x_send_spat)
+[10.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/package.ps1'
+[10.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/package.dsv'
+[10.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/package.sh'
+[10.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/package.bash'
+[10.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/v2x_send_spat/package.zsh'
+[10.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat/share/colcon-core/packages/v2x_send_spat)
+[10.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/json2can' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/json2can build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/json2can/install.log --single-version-externally-managed
+[10.978s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can' for CMake module files
+[10.978s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can' for CMake config files
+[10.979s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib'
+[10.979s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/bin'
+[10.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('json2can', 'path')
+[11.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/path.ps1'
+[11.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/path.dsv'
+[11.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/path.sh'
+[11.040s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/pkgconfig/json2can.pc'
+[11.041s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/lib/python3.8/site-packages'
+[11.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('json2can', 'pythonpath')
+[11.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/pythonpath.ps1'
+[11.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/pythonpath.dsv'
+[11.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/pythonpath.sh'
+[11.102s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/bin'
+[11.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('json2can', 'pythonscriptspath')
+[11.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/pythonscriptspath.ps1'
+[11.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/pythonscriptspath.dsv'
+[11.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/hook/pythonscriptspath.sh'
+[11.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(json2can)
+[11.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/package.ps1'
+[11.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/package.dsv'
+[11.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/package.sh'
+[11.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/package.bash'
+[11.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/json2can/package.zsh'
+[11.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can/share/colcon-core/packages/json2can)
+[11.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing_single' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing_single/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_can_processing_single build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing_single/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing_single/install.log --install-scripts $base/lib/sub_can_processing_single --single-version-externally-managed
+[11.310s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single' for CMake module files
+[11.310s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single' for CMake config files
+[11.311s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/lib'
+[11.311s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/bin'
+[11.311s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/lib/pkgconfig/sub_can_processing_single.pc'
+[11.312s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/lib/python3.8/site-packages'
+[11.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_can_processing_single', 'pythonpath')
+[11.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/hook/pythonpath.ps1'
+[11.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/hook/pythonpath.dsv'
+[11.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/hook/pythonpath.sh'
+[11.388s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/bin'
+[11.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_can_processing_single)
+[11.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/package.ps1'
+[11.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/package.dsv'
+[11.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/package.sh'
+[11.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/package.bash'
+[11.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/sub_can_processing_single/package.zsh'
+[11.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single/share/colcon-core/packages/sub_can_processing_single)
+[11.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/sub_can_processing' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sub_can_processing build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/sub_can_processing/install.log --install-scripts $base/lib/sub_can_processing --single-version-externally-managed
+[11.543s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing' for CMake module files
+[11.543s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing' for CMake config files
+[11.544s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib'
+[11.544s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/bin'
+[11.544s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/pkgconfig/sub_can_processing.pc'
+[11.545s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/lib/python3.8/site-packages'
+[11.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_can_processing', 'pythonpath')
+[11.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/hook/pythonpath.ps1'
+[11.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/hook/pythonpath.dsv'
+[11.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/hook/pythonpath.sh'
+[11.611s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/bin'
+[11.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_can_processing)
+[11.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/package.ps1'
+[11.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/package.dsv'
+[11.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/package.sh'
+[11.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/package.bash'
+[11.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/sub_can_processing/package.zsh'
+[11.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing/share/colcon-core/packages/sub_can_processing)
+[11.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/v2x_send' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/v2x_send build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/v2x_send/install.log --install-scripts $base/lib/v2x_send --single-version-externally-managed
+[11.780s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send' for CMake module files
+[11.781s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send' for CMake config files
+[11.782s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib'
+[11.782s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/bin'
+[11.783s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib/pkgconfig/v2x_send.pc'
+[11.783s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/lib/python3.8/site-packages'
+[11.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2x_send', 'pythonpath')
+[11.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/hook/pythonpath.ps1'
+[11.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/hook/pythonpath.dsv'
+[11.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/hook/pythonpath.sh'
+[11.877s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/bin'
+[11.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v2x_send)
+[11.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/package.ps1'
+[11.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/package.dsv'
+[11.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/package.sh'
+[11.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/package.bash'
+[11.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/v2x_send/package.zsh'
+[11.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send/share/colcon-core/packages/v2x_send)
+[13.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm -- -j8 -l8
+[13.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber:/opt/ros/foxy /usr/bin/cmake --install /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm
+[13.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_comm)
+[13.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send_spat:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/v2x_send:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing_single:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/sub_can_processing:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/json2can:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber:/opt/ros/foxy /usr/bin/cmake --install /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/perception_comm
+[13.568s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm' for CMake module files
+[13.568s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm' for CMake config files
+[13.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_comm', 'cmake_prefix_path')
+[13.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/cmake_prefix_path.ps1'
+[13.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/cmake_prefix_path.dsv'
+[13.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/cmake_prefix_path.sh'
+[13.632s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/lib'
+[13.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_comm', 'ld_library_path_lib')
+[13.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/ld_library_path_lib.ps1'
+[13.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/ld_library_path_lib.dsv'
+[13.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/ld_library_path_lib.sh'
+[13.679s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/bin'
+[13.680s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/lib/pkgconfig/perception_comm.pc'
+[13.680s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/lib/python3.8/site-packages'
+[13.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_comm', 'pythonpath')
+[13.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/pythonpath.ps1'
+[13.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/pythonpath.dsv'
+[13.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/pythonpath.sh'
+[13.728s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/bin'
+[13.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.ps1'
+[13.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.dsv'
+[13.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.sh'
+[13.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.bash'
+[13.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.zsh'
+[13.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/colcon-core/packages/perception_comm)
+[13.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_comm)
+[13.984s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm' for CMake module files
+[13.985s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm' for CMake config files
+[13.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_comm', 'cmake_prefix_path')
+[14.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/cmake_prefix_path.ps1'
+[14.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/cmake_prefix_path.dsv'
+[14.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/cmake_prefix_path.sh'
+[14.043s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/lib'
+[14.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_comm', 'ld_library_path_lib')
+[14.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/ld_library_path_lib.ps1'
+[14.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/ld_library_path_lib.dsv'
+[14.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/ld_library_path_lib.sh'
+[14.113s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/bin'
+[14.113s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/lib/pkgconfig/perception_comm.pc'
+[14.113s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/lib/python3.8/site-packages'
+[14.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_comm', 'pythonpath')
+[14.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/pythonpath.ps1'
+[14.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/pythonpath.dsv'
+[14.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/hook/pythonpath.sh'
+[14.164s] Level 1:colcon.colcon_core.environment:checking '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/bin'
+[14.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.ps1'
+[14.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.dsv'
+[14.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.sh'
+[14.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.bash'
+[14.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/perception_comm/package.zsh'
+[14.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/perception_comm/share/colcon-core/packages/perception_comm)
+[14.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.228s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.294s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.309s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/local_setup.ps1'
+[14.377s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/_local_setup_util_ps1.py'
+[14.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/setup.ps1'
+[14.433s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/local_setup.sh'
+[14.433s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/_local_setup_util_sh.py'
+[14.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/setup.sh'
+[14.501s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/local_setup.bash'
+[14.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/setup.bash'
+[14.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/local_setup.zsh'
+[14.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/setup.zsh'

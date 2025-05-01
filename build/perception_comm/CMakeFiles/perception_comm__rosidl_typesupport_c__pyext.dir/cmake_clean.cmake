@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/perception_comm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/perception_comm/_perception_comm_s.ep.rosidl_typesupport_c.c.o"
+  "rosidl_generator_py/perception_comm/perception_comm_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.pdb"
+  "rosidl_generator_py/perception_comm/perception_comm_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/perception_comm__rosidl_typesupport_c__pyext.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

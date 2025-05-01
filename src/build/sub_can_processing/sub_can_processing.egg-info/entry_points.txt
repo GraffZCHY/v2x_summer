@@ -1,0 +1,3 @@
+[console_scripts]
+sub_can_processing = sub_can_processing.sub_can_processing:main
+

@@ -1,0 +1,12 @@
+source;share/json2can/hook/path.ps1
+source;share/json2can/hook/path.dsv
+source;share/json2can/hook/path.sh
+source;share/json2can/hook/pythonpath.ps1
+source;share/json2can/hook/pythonpath.dsv
+source;share/json2can/hook/pythonpath.sh
+source;share/json2can/hook/pythonscriptspath.ps1
+source;share/json2can/hook/pythonscriptspath.dsv
+source;share/json2can/hook/pythonscriptspath.sh
+source;share/json2can/hook/ament_prefix_path.ps1
+source;share/json2can/hook/ament_prefix_path.dsv
+source;share/json2can/hook/ament_prefix_path.sh

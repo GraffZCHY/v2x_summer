@@ -1,0 +1,6 @@
+{
+  "package_name": "perception_comm",
+  "non_idl_tuples": [
+    "/home/graffz/Documents/Buckeye-Autodrive-Scoring-CAN-Part2/src/perception_comm:msg/CAN.msg"
+  ]
+}

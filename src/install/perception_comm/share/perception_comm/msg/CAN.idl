@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from perception_comm/msg/CAN.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module perception_comm {
+  module msg {
+    struct CAN {
+      std_msgs::msg::Header header;
+
+      sequence<float> v2_x_intersection_s_p_a_t;
+
+      sequence<float> v2_x_intersection_m_a_p;
+
+      sequence<float> a_v_state;
+
+      sequence<float> road_state;
+
+      sequence<float> vehicle_orientation;
+
+      sequence<float> vehicle_location;
+
+      sequence<float> objects;
+
+      sequence<float> object_track_a;
+
+      sequence<float> object_track_b;
+
+      sequence<float> object_track_c;
+
+      sequence<float> object_track_d;
+
+      sequence<float> traffic_signal_heads;
+
+      sequence<float> traffic_signal_head_track_a;
+
+      sequence<float> traffic_signs;
+
+      sequence<float> traffic_sign_track_a;
+
+      sequence<float> lane_markings;
+
+      sequence<float> lane_marking_track_a;
+
+      sequence<float> limit_lines;
+
+      sequence<float> limit_line_track_a;
+
+      sequence<float> misc;
+    };
+  };
+};

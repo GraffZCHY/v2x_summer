@@ -1,0 +1,21 @@
+[5.091s] Invoking command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/basic_subscriber': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_subscriber build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/install.log --install-scripts $base/lib/basic_subscriber --single-version-externally-managed
+[5.547s] running egg_info
+[5.548s] writing ../../build/basic_subscriber/basic_subscriber.egg-info/PKG-INFO
+[5.548s] writing dependency_links to ../../build/basic_subscriber/basic_subscriber.egg-info/dependency_links.txt
+[5.549s] writing entry points to ../../build/basic_subscriber/basic_subscriber.egg-info/entry_points.txt
+[5.549s] writing requirements to ../../build/basic_subscriber/basic_subscriber.egg-info/requires.txt
+[5.549s] writing top-level names to ../../build/basic_subscriber/basic_subscriber.egg-info/top_level.txt
+[5.623s] reading manifest file '../../build/basic_subscriber/basic_subscriber.egg-info/SOURCES.txt'
+[5.626s] writing manifest file '../../build/basic_subscriber/basic_subscriber.egg-info/SOURCES.txt'
+[5.626s] running build
+[5.626s] running build_py
+[5.627s] running install
+[5.628s] running install_lib
+[5.632s] running install_data
+[5.633s] running install_egg_info
+[5.659s] removing '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[5.661s] Copying ../../build/basic_subscriber/basic_subscriber.egg-info to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages/basic_subscriber-0.0.0-py3.8.egg-info
+[5.662s] running install_scripts
+[5.675s] Installing basic_subscriber script to /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/basic_subscriber
+[5.675s] writing list of installed files to '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/install.log'
+[5.893s] Invoked command in '/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/src/basic_subscriber' returned '0': PYTHONPATH=/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/prefix_override:/home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/install/basic_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_subscriber build --build-base /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/build install --record /home/tsz/Desktop/7_v1/Buckeye-Autodrive-Scoring-CAN-Part2_v1/Buckeye-Autodrive-Scoring-CAN-Part2/build/basic_subscriber/install.log --install-scripts $base/lib/basic_subscriber --single-version-externally-managed
